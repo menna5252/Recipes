@@ -44,7 +44,7 @@ export default function Home({ querry }) {
         </div>
       ) : (
         <Recipelist recipes={recipes} 
-        toggleFavourite={toggleFavourite} 
+        favFunction={toggleFavourite} 
         favourites={favourites} />
       )}
     </main>
